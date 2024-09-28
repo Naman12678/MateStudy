@@ -18,7 +18,8 @@ const Navbar = () => {
             <Link to="/services" className="text-black hover:text-gray-600">Services</Link>
             <Link to="/about" className="text-black hover:text-gray-600">About</Link>
             <Link to="/contact" className="text-black hover:text-gray-600">Contact</Link>
-            <Link to="/signup" className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-700">Sign up</Link>
+            <Link to="/auth" className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-700">Get Started
+</Link>
           </div>
 
           {/* Hamburger Menu for small screens */}
@@ -70,11 +71,11 @@ const Navbar = () => {
               Contact
             </Link>
             <Link
-              to="/signup"
+              to="/auth"
               className="bg-white text-black px-6 py-3 rounded-md hover:bg-gray-300"
               onClick={() => setIsMenuOpen(false)}
             >
-              Sign up
+              Get Started
             </Link>
           </nav>
         </div>

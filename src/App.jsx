@@ -8,7 +8,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
 import UserDashboard from './components/UserDashboard';
-import Signup from './components/Signup';
+import SignInSignUp from './components/SignInSignUp';
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/auth" element={<SignInSignUp />} />
           <Route path="/dashboard" element={<UserDashboard />} /> {/* Protected dashboard page */}
         </Routes>
 

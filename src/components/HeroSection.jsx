@@ -1,5 +1,6 @@
 // src/components/HeroSection.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,9 @@ const HeroSection = () => {
           Welcome to StudyMate, a platform created by learners for learners.
           We're here to help you ace your exams with personalized study plans.
         </p>
-        <a href="/services" className="bg-black text-white px-6 py-3 rounded-md">View All Services</a>
+        <button className="bg-black text-white p-3 rounded">
+          <Link to="/services">View Services</Link>
+        </button>
       </div>
     </div>
   );

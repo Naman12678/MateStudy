@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import Services from '../components/Services';
 import Testimonials from '../components/Testimonials';
 import Featured from '../components/Featured';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -23,12 +24,9 @@ const Home = () => {
         <p className="mb-8">
           Join StudyMate today and ace your exams with our personalized study plans and community support.
         </p>
-        <a
-          href="/signup"
-          className="bg-white text-black px-6 py-3 rounded-md font-semibold hover:bg-gray-200"
-        >
-          Sign Up Now
-        </a>
+        <button className="bg-black text-white px-4 py-2 rounded">
+          <Link to="/auth" className="text-white no-underline">Get Started Now</Link>
+        </button>
       </section>
     </>
   );
