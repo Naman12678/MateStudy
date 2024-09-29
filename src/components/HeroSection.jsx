@@ -21,7 +21,11 @@ const HeroSection = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
       {/* Spline 3D Scene
+=======
+      {/* Spline 3D Scene 
+>>>>>>> 21b21097579e94ecf212389fb55d6ce26995778e
       <div className="absolute inset-0">
       <Spline scene="https://prod.spline.design/e7yIwQqMXCFz2FZl/scene.splinecode" />
       </div>*/}
